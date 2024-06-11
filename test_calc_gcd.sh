@@ -15,10 +15,10 @@
 
 ## CHECK_IS_NATURAL_NUMBERのテスト
 # test5:引数に文字が含まれる
-./calc_gcd.sh 10 テスト
+#./calc_gcd.sh 10 テスト
 
 # test6:引数に0が含まれる
-#./calc_gcd.sh 10 0
+./calc_gcd.sh 10 0
 
 # test7:引数に小数が含まれる
 #./calc_gcd.sh 10 2.5

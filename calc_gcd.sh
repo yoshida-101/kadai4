@@ -27,7 +27,7 @@ CHECK_IS_NATURAL_NUMBER () {
     elif [ $(( $1 + 0 )) != $1 ]; then
         echo "整数の最大値を超えています"
         exit 3
-    # Check if it's a negative number
+    # 負の数か確認する
     elif [ $1 -lt 0 ]; then
         echo "$1 は自然数ではありません"
         exit 2

@@ -35,9 +35,32 @@ CHECK_IS_NATURAL_NUMBER () {
 }
 
 
+CALCULATE_GREATEST_COMMON_DIVISOR () {
+    # ユークリッドの互除法で最大公約数を求める
+    if [ $1 -ge $2 ]; then
+        a=$1
+        b=$2
+    else
+        a=$2
+        b=$1
+    fi
+
+    remainder=1 # 初期値
+    while [ ${remainder} -gt 0 ]; do
+        remainder=$(( ${a} % ${b} )) 
+
+        a=${b}
+        b=${remainder}
+    done
+
+    echo "$1 と $2 の最大公約数は $a です"
+}
+
 # Main
 CHECK_ARG_COUNT $@
 
 for i in "$@"; do
     CHECK_IS_NATURAL_NUMBER ${i}
 done
+
+CALCULATE_GREATEST_COMMON_DIVISOR $1 $2

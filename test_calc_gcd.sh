@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # test1:引数の数が0
-./calc_gcd.sh
+#./calc_gcd.sh
 
 # test2:引数の数が1
-#./calc_gcd.sh 10
+./calc_gcd.sh 10
 
 # test3:引数の数が2
 #./calc_gcd.sh 10 20

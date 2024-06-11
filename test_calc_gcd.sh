@@ -27,10 +27,10 @@
 #./calc_gcd.sh 10 9223372036854775808
 
 # test9:引数に負の数が含まれる
-./calc_gcd.sh 10 -20
+#./calc_gcd.sh 10 -20
 
 # test10:引数が2つとも自然数
-#./calc_gdc.sh 10 20
+./calc_gdc.sh 10 20
 
 if [ $? -eq 0 ]; then
     echo "$0 is pass."

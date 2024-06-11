@@ -4,10 +4,10 @@
 #./calc_gcd.sh
 
 # test2:引数の数が1
-./calc_gcd.sh 10
+#./calc_gcd.sh 10
 
 # test3:引数の数が2
-#./calc_gcd.sh 10 20
+./calc_gcd.sh 10 20
 
 # test4:引数の数が3
 #./calc_gcd.sh 10 20 30

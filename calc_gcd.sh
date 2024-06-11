@@ -6,3 +6,7 @@ CHECK_ARG_COUNT () {
         exit 1
     fi
 }
+
+# Main
+
+CHECK_ARG_COUNT $@

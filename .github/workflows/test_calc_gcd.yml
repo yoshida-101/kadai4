@@ -1,0 +1,12 @@
+name: test-calc_gcd
+on: [push]
+jobs:
+  test-calc_gdc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+      - uses: actions/checkout@v2
+      - name: Permission Setting
+      - run: chmod +x calc_gcd.sh test_calc_gcd.sh
+      - name: Test Run
+      - run: ./test_calc_gcd.sh

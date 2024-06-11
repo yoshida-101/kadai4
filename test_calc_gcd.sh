@@ -44,14 +44,14 @@
 
 ## CALCULATE_GREATEST_COMMON_DIVISORのテスト
 # test11:引数に1が含まれると最大公約数は1になる
-arg1=1
-arg2=10
-answer=1
+#arg1=1
+#arg2=10
+#answer=1
 
 # test12:引数が等しい場合、最大公約数も引数と等しい
-#arg1=12345
-#arg2=12345
-#answer=12345
+arg1=12345
+arg2=12345
+answer=12345
 
 # test13:引数の順序が変わっても正しく最大公約数を求められる(1回目)
 #arg1=2013

@@ -18,10 +18,10 @@
 #./calc_gcd.sh 10 テスト
 
 # test6:引数に0が含まれる
-./calc_gcd.sh 10 0
+#./calc_gcd.sh 10 0
 
 # test7:引数に小数が含まれる
-#./calc_gcd.sh 10 2.5
+./calc_gcd.sh 10 2.5
 
 # test8:引数が整数の最大値を超えている
 #./calc_gcd.sh 10 9223372036854775808
